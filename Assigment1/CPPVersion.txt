@@ -1,0 +1,127 @@
+// Example program
+#include <iostream>
+#include <string>
+#include <set> 
+#include <map> 
+
+// declare a function 
+int addition (int a, int b) {
+  int r;
+  r=a+b;
+  return r;
+}
+
+int main() {
+  
+//Array
+// Declaring an array 
+int intArray [5] = { 16, 2, 77, 40, 12071 };
+
+// Add to array 
+intArray[6] = {1};
+std::cout<< intArray[6]<<"\n";
+
+// Iterate over array 
+// Subscript by index
+for(int i = 0; i< 5; i++){
+    std::cout<<intArray[i]<<" ";
+}
+std::cout<<"\n";
+
+// Set
+    std::set<int> myEmptySet; // empty set of ints    
+    
+    int myints[]= {10,20,30,40,50};
+    std::set<int> filledSet (myints,myints+5);        // range
+   
+   // Check if set contains element
+   if (myEmptySet.empty()){
+       std::cout<<"I am an empty set!\n";
+   }
+   
+   std::cout << "filledSet contains:";
+   while (!filledSet.empty()) {
+     std::cout << ' ' << *filledSet.begin();
+     filledSet.erase(filledSet.begin());
+  }
+  std::cout << '\n';
+
+
+
+// All Primitives 
+// Declare Integer 
+   int intNum = 8; 
+
+// Declare String 
+    std::string myString = "Some String"; 
+    
+// Declare Boolean
+    bool boolVal = false; 
+    std::cout<< intNum<< " "<< myString<< " " <<  boolVal<< "\n";
+    
+// Dictionary
+
+// this is a map, where the keys are integers and the values are strings
+std::map<int, std::string> stringLookupTable;
+ 
+// this is a map where the keys are strings and the values integers
+std::map<std::string, int> passwordHashForUser;
+
+// Iterate over dictionary
+std::map<int, std::string> values;
+// ... 
+for(auto& x : values) {
+    std::cout << x.first << "," << x.second << std::endl;
+}
+
+// Get dictionary value from key
+std::map<int, std::string> userNameForUserID;
+ 
+// insert a user
+userNameForUserID[0] = std::string("John Doe");
+ 
+// retrieve a user
+std::cout << "User #0 is named: " << userNameForUserID[0] << std::endl;
+
+
+// Function
+// Return element from function 
+// Add parameters to function
+// call the function 
+  int z;
+  z = addition (5,3);
+  std::cout << "The result is " << z;
+
+// Objects
+//  Create class Create struct
+    class Rectangle {
+    int width, height;
+     public:
+    void set_values (int,int);
+    int area (void);
+} rect;
+// accessing class values and methods 
+rect.set_values (3,4);
+myarea = rect.area();
+
+
+// Protocols (or similar, like interface)
+// Declare a protocol
+// Default implementation for protocol function
+// Enum (or similar)
+// Declare enum
+// Raw Value Enum Associated Value Enum
+// Declare property Declare Mutable Declare Immutable
+// Explicit Declare Property
+// Declare Character
+// Declare any explicit type property
+// Optionals
+// Declare Optional
+// Force unwrap optional
+// Declare property with nil coalescing
+// Use optional binding to safely unwrap (both ways) Use optional chaining to safely unwrap
+// Declare an Implicit unwrapped optional
+//   If, else statement
+// Declare if else statement Declare ternary
+}
+
