@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "7c2d9d237c4e01817e33c2561eafbb00"
+build_time: [1580131147, 657903000]
+inputs:
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/ViewController/MainViewController.swift": [1580101368, 217133790]
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/PassingInformation/AppDelegate.swift": [1580068323, 356966323]
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/ViewController/MarriedManViewController.swift": !dirty [1580076764, 412510409]
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/ViewController/SingleManViewController.swift": [1580128229, 525307725]
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/PassingInformation/SceneDelegate.swift": [1580068317, 290157392]
+  "/Users/congle/Desktop/CongLeSolutionX/iOS/ENHANCE IT/ASSIGNMENTS/Assignemnt 2/PassingInformation/ViewController/FemaleViewController.swift": [1580096547, 160533057]
